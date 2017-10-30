@@ -1,38 +1,32 @@
-<!DOCTYPE html>
-
 <html>
-<head>
-<title>Module 1 Example</title>
-<link rel="stylesheet" type="text/css" href="styles/example1.css" />
-<script src="js/example1.js"></script>
-</head>
-<body>
-
-<header>
-    <h1>Module 1 Example</h1>
-    <hr>
-</header>
-<section id="title">
-    <select onchange="MenuChoice(value)" id="menu">
-        <option value="None">Please select an option.</option>
-        <option value="Section 1">Section 1</option>
-        <option value="Section 2">Section 2</option>
-    </select>
-</section>
-
-<hr>
-    <section id="section1">
-    <h2>This is Section 1!</h2>
-    </section>
-   
-    <section id="section2">
-    <h2>This is Section 2!</h2>
-    </section>
     
-    <footer>
+    <head>
+        <title>Module 2 Example</title>
+        <link rel="stylesheet" type="text/css" href="styles/example2.css" />
+        <script src="js/example2.js"></script>
+    </head>
+    
+    <body>
+        <section id="title">
+            <h1>Module 2 Example</h1>
+            <hr>
+            <select onchange="MenuChoice(value)" id="menu">
+                <option value="None">Please select an option.</option>
+                <option value="storelist">List Stores</option>
+                <option value="orderhistory">Store Order History</option>
+            </select>
+        </section>
         <hr>
-        <h2>This is a footer!</h2>
-    </footer>
-
-</body>
+        <section id="storelist">
+            <h2>Store List</h2>
+            <hr>
+            <p id="liststores">Store List</p>
+        </section>
+        
+        <section id="orderhistory">
+            <h2>Store Order History</h2>
+            <p id="books">Order History</p>
+        </section>
+    
+    </body>
 </html>
